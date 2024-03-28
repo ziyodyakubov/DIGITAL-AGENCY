@@ -16,6 +16,10 @@ a {
   text-decoration: none;
 }
 
+
+
+
+
 /* HEADER SECTION STARTED */
 
 .header {
@@ -135,6 +139,10 @@ nav {
 
 
 
+
+
+
+
 /* SECTION-1 STARTED */
 
 #section-1 {
@@ -233,6 +241,12 @@ nav {
 
 
 
+
+
+
+
+
+
 /* SECTION-2 STARTED */
 
 #section-2 {
@@ -322,6 +336,11 @@ nav {
 
 
 
+
+
+
+
+
 /* SECTION-3 STARTED */
 
 #section-3 {
@@ -356,3 +375,90 @@ nav {
 }
 
 /* SECTION-3 ENDED */
+
+
+
+
+
+
+
+
+/* SECTION-4 STARTED */
+
+#section-4 {
+  padding-bottom: 120px;
+}
+
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.flex-img {
+  position: relative;
+  right: 112px;
+}
+
+.flex-title {
+  padding-top: 24px;
+}
+
+.first-info {
+  line-height: 141%;
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.second-info {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 91px;
+  color: #999999;
+  line-height: 30px;
+}
+
+.title-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.title-card-other {
+  padding-left: 20px;
+  border-left: 6px solid #165DF5;
+}
+
+.title-card-other h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+.title-card-other p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #999999;
+}
+
+.title-card {
+  padding-left: 20px;
+}
+
+.title-card h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+
+}
+
+.title-card p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #999999;
+}
+
+
+/* SECTION-4 ENDED */
