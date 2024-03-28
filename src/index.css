@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" !important;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER SECTION STARTED */
+
+.header {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #00000009;
+  backdrop-filter: blur(12px);
+  background-color: #ffffff2c;
+  position: sticky;
+  top: 0;
+  background-position: center;
+}
+
+.container {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mainlogo {
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo-title:nth-child(1) {
+  font-weight: 400px !important;
+}
+
+.digital {
+  font-size: 16px;
+  font-weight: 500 !important;
+}
+
+.agency {
+  font-size: 16px;
+  font-weight: 700 !important;
+  color: #165DF5;
+}
+
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-ul li a {
+  transition: all 0.3s ease;
+  color: #414347;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.nav-ul li a:hover {
+  color: #000;
+}
+
+.nav-ul li a:active {
+  color: #414347;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lang {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: transparent;
+}
+
+.lang:hover {
+  color: #000;
+}
+
+.lang:active {
+  color: #414347;
+}
+
+.submit {
+  transition: all 0.3s ease;
+  cursor: pointer;
+  padding: 11px 24px;
+  background-color: #165DF5;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.submit:hover {
+  background-color: #165df5e3;
+}
+
+.submit:active {
+  background-color: #165DF5;
+}
+
+/* HEADER SECTION ENDED */
+
+
+
+
+
+
+/* SECTION-1 STARTED */
+
+#section-1 {
+  text-align: center;
+  background-image: url("./assets/images/png-jpg/section-1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 140px;
+  background-position: center;
+}
+
+.hayoge {
+  width: 1200px;
+  height: 530px;
+}
+
+.main-h1 {
+  line-height: 76px;
+  padding-top: 68px;
+  padding-bottom: 30px;
+  font-size: 64px;
+  font-weight: 600;
+
+  span {
+    color: #165DF5;
+  }
+}
+
+.section-1-title {
+  width: 732px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gradus360 {
+  width: 717px;
+  color: #5D6066;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.delay-btn {
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  color: #fff;
+  width: 226px;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  padding: 10px 25px;
+  background-color: #165DF5;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
+
+.delay-btn:hover {
+  background-color: #165df5dc;
+}
+
+.delay-btn:active {
+  background-color: #165DF5;
+}
+
+/* SECTION-1 ENDED */
+
+
+
+/* SECTION-2 STARTED */
+
+#section-2 {
+  padding-bottom: 120px;
+}
+
+.section-2_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 710px;
+  text-align: center;
+  margin-bottom: 56px;
+}
+
+.neler {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.yapiyoruz {
+  color: #165DF5;
+}
+
+.adim {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.nmagap-p {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.card-wrapper-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 83px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.info h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.info img {
+  margin-bottom: 11px;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+.coffee {
+  background-color: #D6F1CF;
+  border: 0.5px solid rgba(48, 186, 14, 0.40);
+}
+
+.package {
+  background-color: #739EF9;
+  border: 0.5px solid rgba(22, 93, 245, 0.40);
+}
+
+.clock {
+  background-color: #E7CEF0;
+  border: 0.5px solid rgba(141, 14, 186, 0.40);
+}
+
+
+/* SECTION-2 ENDED */
