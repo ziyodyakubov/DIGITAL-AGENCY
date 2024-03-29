@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" !important;
+  font-family: "Poppins";
   scroll-behavior: smooth;
 }
 
@@ -147,7 +147,7 @@ nav {
 
 #section-1 {
   text-align: center;
-  background-image: url("./assets/images/png-jpg/section-1.png");
+  background-image: url("./assets/images/section-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 140px;
