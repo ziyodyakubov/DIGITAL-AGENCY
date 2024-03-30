@@ -6,6 +6,7 @@ import icon_3 from "./assets/images/Package.svg";
 import section from "./assets/images/section.png";
 import Button from "./components/UI/Button";
 import Card from "./components/UI/Card";
+import FooterPro from "./components/Footer";
 
 
 
@@ -204,21 +205,7 @@ function App() {
             </div>
         </section>
     </main>
-
-    <footer>
-        <div className="footer-wrapper container">
-
-        <ul class="uljon">
-            <li><a href="#">Ana Sayfa</a></li>
-            <li><a href="#">Kurumsal</a></li>
-            <li><a href="#">Neler Yapıyoruz?</a></li>
-            <li><a href="#">Projelerimiz</a></li>
-            <li><a href="#">Blog</a></li>
-        </ul>
-
-        <p>© 2021 Can Çevik. All rights reserved</p>
-        </div>
-    </footer>
+    <FooterPro/>
     </>
   );
 }
