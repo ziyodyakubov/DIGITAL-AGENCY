@@ -4,6 +4,8 @@ import icon_1 from "./assets/images/Coffee.svg";
 import icon_2 from "./assets/images/ClockClockwise.svg";
 import icon_3 from "./assets/images/Package.svg";
 import section from "./assets/images/section.png";
+import Button from "./components/UI/Button";
+import Card from "./components/UI/Card";
 
 
 
@@ -173,7 +175,50 @@ function App() {
                 </div>
             </div>
         </section>
+
+        <section id="section-5">
+            <div className="container">
+                <div className="section-2_wrapper">
+                    <div class="title">
+                        <h3 class="neler">Neler <span class="yapiyoruz">Yapıyoruz?</span></h3>
+                        <h2 class="adim">Öğreniyoruz, sizinle paylaşıyoruz.</h2>
+                        <p class="nmagap-p">Alanında uzman yazar arkadaşlarımızın, bilgi paylaşımı yaptıkları yazıları inceleyelim.</p>
+                    </div>
+
+                    <div className="button-wrapper">
+                        <Button text="Hepsini Gör" />
+                        <Button text="Web Tasarım" />
+                        <Button text="Kurumsal Kimlik Tasarımı" />
+                        <Button text="SEO" />
+                        <Button text="Dijital Pazarlama" />
+                    </div>
+
+
+                    <div className="card-wrapper">
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                        <Card/>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
+
+    <footer>
+        <div className="footer-wrapper container">
+
+        <ul class="uljon">
+            <li><a href="#">Ana Sayfa</a></li>
+            <li><a href="#">Kurumsal</a></li>
+            <li><a href="#">Neler Yapıyoruz?</a></li>
+            <li><a href="#">Projelerimiz</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+
+        <p>© 2021 Can Çevik. All rights reserved</p>
+        </div>
+    </footer>
     </>
   );
 }

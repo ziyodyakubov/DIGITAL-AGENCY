@@ -462,3 +462,65 @@ nav {
 
 
 /* SECTION-4 ENDED */
+
+
+
+/* SECTION-5 STARTED */
+
+#section-5 {
+  padding-top: -80px;
+  background: #F9F9F9;
+  padding-bottom: 70px;
+}
+
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 45px;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 55px;
+  justify-content: space-between;
+}
+
+/* SECTION-5 ENDED */
+
+
+/* FOOTER SECTION STARTED */
+
+footer {
+  background-color: #165DF5;
+  padding: 30px 0px;
+  color: #fff;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-wrapper p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.uljon {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 32px;
+}
+
+.uljon li a {
+  font-size: 14px;
+  font: 500px;
+  color: #fff !important;
+}
+
+/* FOOTER SECTION ENDED */
